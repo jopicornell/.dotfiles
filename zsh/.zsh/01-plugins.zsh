@@ -9,6 +9,7 @@ autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ### End of Zplugin installer's chunk
 
+zplug zsh-users/zsh-autosuggestions
 zplug "lukechilds/zsh-nvm"
 zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
