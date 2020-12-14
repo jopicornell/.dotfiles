@@ -1,0 +1,21 @@
+{
+    "ableton": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://audionews.org/internal_data/atom/f/12.atom"
+        ],
+        "assignedCategory": "",
+        "createSubfolder": null,
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "",
+        "mustContain": "ableton",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "",
+        "smartFilter": false,
+        "useRegex": false
+    }
+}
