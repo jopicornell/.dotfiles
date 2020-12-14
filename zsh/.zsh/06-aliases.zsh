@@ -214,3 +214,5 @@ function gitforge() {
 #}
 # i hate this
 alias x="while :; do startx; done"
+
+alias psql="pgcli"
