@@ -1,0 +1,12 @@
+[user]
+	email = joan.picornell@gmail.com
+	name = Joan Picornell
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "bitbucket-kydemy:kydemy/"]
+	insteadOf = https://bitbucket.org/kydemy
