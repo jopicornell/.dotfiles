@@ -3,12 +3,6 @@ source ~/.zplug/init.zsh
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-### Added by Zplugin's installer
-source "$HOME/.zplugin/bin/zplugin.zsh"
-autoload -Uz _zplugin
-(( ${+_comps} )) && _comps[zplugin]=_zplugin
-### End of Zplugin installer's chunk
-
 zplug zsh-users/zsh-autosuggestions
 zplug "lukechilds/zsh-nvm"
 zplug romkatv/powerlevel10k, as:theme, depth:1
