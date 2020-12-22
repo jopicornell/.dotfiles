@@ -43,6 +43,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export MANPAGER="nvim -c 'set ft=man' -"
 #export MANPATH=/usr/local/man:$MANPATH
 
+export LESS="-SRXF"
 #█▓▒░ preferred text editor
 export EDITOR=nvim
 export VISUAL=nvim
