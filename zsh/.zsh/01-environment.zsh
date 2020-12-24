@@ -68,3 +68,4 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 #█▓▒░ no mosh titles
 export MOSH_TITLE_NOPREFIX=1
+export RUSTC=$PREFIX/opt/rust-nightly/bin/rustc
